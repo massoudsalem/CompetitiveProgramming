@@ -14,7 +14,7 @@ int main(int argc, char const *argv[]) {
   cin>>s;
   int sum=0;
   for(auto c:s){
-    sum+=arr[c-'0'-1];
+    sum+=arr[c-'1'];
   }
   cout<<sum<<endl;
 }
