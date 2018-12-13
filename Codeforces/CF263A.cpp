@@ -14,7 +14,6 @@
           printf("%d\n",abs(3-i)+abs(3-j));
           break;
         }
-
     }
    return 0;
  }
