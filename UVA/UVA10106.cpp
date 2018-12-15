@@ -18,6 +18,10 @@ int main(int argc, char const *argv[]) { //Faster solution is to use python or b
       for(int j=0;j<(int)y.length();++j){
         product[i+j]+=(x[i]-'0')*(y[j]-'0');
       }
+      for (int i=0;i<999;i++) {
+  			product[i + 1]+=product[i]/10;
+  			product[i]%=10;
+  		}
       int i=999;
       while (i > 0 && product[i] == 0) i--;
       for (;i>=0;--i)cout<<product[i];
