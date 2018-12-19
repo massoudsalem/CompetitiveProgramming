@@ -1,7 +1,7 @@
 /*******************************************
  * - Coded by Moh.Massoud
- * - Problem name: A. Stones on the Table
- * - Url: https://codeforces.com/contest/266/problem/A
+ * - Problem name: A. Presents
+ * - Url: https://codeforces.com/problemset/problem/136/A
  ********************************************/
 #include <bits/stdc++.h>
 using namespace std;
